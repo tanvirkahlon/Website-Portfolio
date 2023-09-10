@@ -16,7 +16,14 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><img src="theme_light.png" alt="Color theme icon"></li>
+                <li><img 
+                    id="modeToggle"
+                    class="icon color-icon"
+                    src="theme_light.png" 
+                    src-light="theme_light.png"
+                    src-dark="theme_dark.png"
+                    alt="Color theme icon"/>
+                </li>
             </ul>
         </div>
     </nav>
@@ -33,6 +40,14 @@
                 <li><a href="#experience" onclick="toggleMenu()">Experiments</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><img 
+                    id="modeToggle2"
+                    class="icon color-icon"
+                    src="theme_light.png" 
+                    src-light="theme_light.png"
+                    src-dark="theme_dark.png"
+                    alt="Color theme icon"/>
+                </li>
             </div>
         </div>
     </nav>
@@ -47,7 +62,7 @@
             <div class="btn-container">
                 <button 
                     class="btn btn-color-2" 
-                    onclick="window.open('Tanvir_Kahlon_Resume.pdf')"
+                    onclick="window.open('Tanvir_Kahlon_Resume_.pdf')"
                     >Resume</button>
                 <button 
                     class="btn btn-color-1" 
@@ -57,12 +72,18 @@
             </div>
             <div id="socials-container">
                 <img 
-                src="linkedin.png" 
+                src="linkedin_light.png"
+                src-light="linkedin_light.png"
+                src-dark="linkedin_dark.png"
+
                 alt="LinkedIn Profile"
                 class="icon" 
                 onclick="location.href='http://linkedin.com/in/tanvir-kahlon-1b9b09252'"/>
                 <img 
-                src="github.png" 
+                src="github_light.png" 
+                src-light = "github_light.png"
+                src-dark = "github_dark.png"
+
                 alt="Github Profile"
                 class="icon" 
                 onclick="location.href='http://github.com/tanvirkahlon'"/>
@@ -81,18 +102,34 @@
                 <div class="about-container">
                     
                     <div class="details-container">
-                        <img src="education.png" alt="Education Icon" class ="icon"/>
+                        <img src="education_light.png"
+                        src-light ="education_light.png"
+                        src-dark ="education_dark.png"
+                         alt="Education Icon" 
+                         class ="icon education-icon"/>
                         <h3>Education</h3>
                         <p>Bachelor of Software Engineering <br>University of Victoria</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae natus animi deleniti. Assumenda beatae, sequi exercitationem tenetur odit minima aperiam rem fugit, veritatis, magni in. Rerum eos, dolores consequuntur placeat accusamus impedit tenetur amet? Animi odit a expedita maxime voluptas sit repellat fuga praesentium incidunt, numquam impedit dolore recusandae est?
+                    <p>I'm an enthusiastic learner with a strong 
+                        commitment to the field of Software Engineering. 
+                        I thrive on the challenges of coding, problem-solving, 
+                        and the ever-evolving landscape of technology. 
+                        My academic journey has not only equipped me with the 
+                        technical skills necessary for success but also nurtured 
+                        my passion for AI and web development. As a tech enthusiast, 
+                        I constantly seek opportunities to innovate, collaborate, and stay 
+                        at the forefront of this dynamic industry. 
                     </p>
                 </div>
             </div>
         </div>
-        <img src="arrow.png" alt="Arrow Icon" class ="icon arrow"
+        <img src="arrow_light.png"
+        src-light="arrow_light.png"
+        src-dark="arrow_dark.png"
+
+        alt="Arrow Icon" class ="icon arrow"
         onclick="location.href='./#experience'"/>
     </section>
     <section id="experience">
@@ -104,25 +141,34 @@
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>HTML</h3>
                             <p>Experienced</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png"
+                            alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>CSS</h3>
                             <p>Experienced</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>JavaScript</h3>
                             <p>Basic</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>Material UI</h3>
                             <p>Intermediate</p></div>
@@ -133,25 +179,33 @@
                     <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>Python</h3>
                             <p>Experienced</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>Java</h3>
                             <p>Experienced</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>SQL</h3>
                             <p>Intermediate</p></div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience Icon"
+                            <img src="checkmark_light.png"
+                            src-light="checkmark_light.png"
+                            src-dark="checkmark_dark.png" alt="Experience Icon"
                             class ="icon"/>
                             <div><h3>Git</h3>
                             <p>Intermediate</p></div>
@@ -161,7 +215,9 @@
                 </div>
             </div>
         </div>
-        <img src="arrow.png" alt="Arrow Icon" class ="icon arrow"
+        <img src="arrow_light.png"
+        src-light="arrow_light.png"
+        src-dark="arrow_dark.png" alt="Arrow Icon" class ="icon arrow"
         onclick="location.href='./#projects'"/>
     </section>
     <section id="projects">
@@ -218,7 +274,9 @@
                 </div>
             </div></div>
         </div>
-        <img src="arrow.png" alt="Arrow Icon" class ="icon arrow"
+        <img src="arrow_light.png"
+        src-light="arrow_light.png"
+        src-dark="arrow_dark.png" alt="Arrow Icon" class ="icon arrow"
         onclick="location.href='./#projects'"/>
     </section>
     <section id="contact">
@@ -226,11 +284,22 @@
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="email.png" alt="Email Icon" class = "icon contact-icon email-icon"/>
+                <img src="email_light.png"
+                src-light="email_light.png"
+                src-dark="email_dark.png"
+                alt="Email Icon" 
+                class = "icon contact-icon email-icon"/>
                 <p><a href="mailto:tanvirkahlon91@gmail.com">Email</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="linkedin.png" alt="LinkedIn Icon" class = "icon contact-icon"/>
+                <img 
+                src="linkedin_light.png"
+                src-light="linkedin_light.png"
+                src-dark="linkedin_dark.png"
+
+                alt="LinkedIn Profile"
+                class="icon linkedin-icon" 
+                onclick="location.href='http://linkedin.com/in/tanvir-kahlon-1b9b09252'"/>
                 <p><a href="http://linkedin.com/in/tanvir-kahlon-1b9b09252">LinkedIn</a></p>
             </div>
         </div>
